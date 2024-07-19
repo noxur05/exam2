@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Initialize Carousel 1
-    new Splide('.splide', {
+    new Splide('#carousel-goods', {
         arrows: true,
         gap: "1.5rem",
         pagination: false,
@@ -18,7 +18,15 @@ document.addEventListener('DOMContentLoaded', function () {
             },
           },
         focus: 0,
-        omitEnd: true
+        omitEnd: true,
+    }).mount();
+
+    new Splide('#carousel-info', {
+        arrows: false,
+        pagination: false,
+        gap: "1.5rem",
+        type: 'loop',
+        autoplay: true,
     }).mount();
       
   });
