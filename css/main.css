@@ -1,0 +1,4 @@
+.accordion-button:before,
+.accordion-button:after{
+    display: none;
+}

@@ -86,12 +86,12 @@
 
   <div class="container-xxl">
     <div class="row w-100 justify-content-center vh-50 align-items-center ">
-      <div class="col-12 col-sm-6">
+      <div class="col-12 col-md-6">
         <div class="h4 fw-bold">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga maxime nemo obcaecati nisi,
           repellendus error?
         </div>
-        <div class="text-secondary small my-3">
+        <div class="text-secondary small my-3 d-none d-md-block">
           <div class="col my-2">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore in consequatur, neque quaerat
             consectetur quae quo fuga quis, velit voluptatem sapiente impedit quia! Rem repellat, possimus
@@ -107,7 +107,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6">
+      <div class="col-12 col-md-6">
         <div>
           <img src="img/overview-img.jpg" class="img-fluid" alt="">
         </div>
@@ -117,45 +117,62 @@
 
   <div class="container-fluid py-5 bg-dark my-5">
     <div class="container-xxl">
-      <div class="row row-cols-1 row-cols-md-3 text-center text-center">
-        <div class="col">
-          <div class="text-danger h1 fw-bold">
-            <i class="bi-people-fill"></i>
-          </div>
-          <div class="text-white fw-bold h4 mb-3">
-            650 Participants
-          </div>
-          <div class="small text-secondary">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente corporis voluptatem harum. Mollitia
-            recusandae, nemo quia a id quos? Ipsa nihil earum eum expedita dolorem distinctio impedit, dolores
-            consequuntur minima eligendi repellat quia deleniti. Exercitationem.
-          </div>
-        </div>
-        <div class="col">
-          <div class="text-danger h1 fw-bold">
-            <i class="bi-clock"></i>
-          </div>
-          <div class="text-white fw-bold h4 mb-3">
-            24 Programs
-          </div>
-          <div class="small text-secondary">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente corporis voluptatem harum. Mollitia
-            recusandae, nemo quia a id quos? Ipsa nihil earum eum expedita dolorem distinctio impedit, dolores
-            consequuntur minima eligendi repellat quia deleniti. Exercitationem.
-          </div>
-        </div>
-        <div class="col">
-          <div class="text-danger h1">
-            <i class="bi-mic-fill"></i>
-          </div>
-          <div class="text-white fw-bold h4 mb-3">
-            11 Speakers
-          </div>
-          <div class="small text-secondary">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente corporis voluptatem harum. Mollitia
-            recusandae, nemo quia a id quos? Ipsa nihil earum eum expedita dolorem distinctio impedit, dolores
-            consequuntur minima eligendi repellat quia deleniti. Exercitationem.
-          </div>
+      <div class="splide" role="group" aria-label="Splide Basic HTML Example" id="carousel-goods">
+        <div class="splide__track">
+          <ul class="splide__list text-center">
+            <li class="splide__slide">
+              <div class="text-danger h1 fw-bold">
+                <i class="bi-people-fill"></i>
+              </div>
+              <div class="text-white fw-bold h4 mb-3">
+                650 Participants
+              </div>
+              <div class="small text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente corporis voluptatem harum. Mollitia
+                recusandae, nemo quia a id quos? Ipsa nihil earum eum expedita dolorem distinctio impedit, dolores
+                consequuntur minima eligendi repellat quia deleniti. Exercitationem.
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="text-danger h1 fw-bold">
+                <i class="bi-clock"></i>
+              </div>
+              <div class="text-white fw-bold h4 mb-3">
+                24 Programs
+              </div>
+              <div class="small text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente corporis voluptatem harum. Mollitia
+                recusandae, nemo quia a id quos? Ipsa nihil earum eum expedita dolorem distinctio impedit, dolores
+                consequuntur minima eligendi repellat quia deleniti. Exercitationem.
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="text-danger h1">
+                <i class="bi-mic-fill"></i>
+              </div>
+              <div class="text-white fw-bold h4 mb-3">
+                11 Speakers
+              </div>
+              <div class="small text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente corporis voluptatem harum. Mollitia
+                recusandae, nemo quia a id quos? Ipsa nihil earum eum expedita dolorem distinctio impedit, dolores
+                consequuntur minima eligendi repellat quia deleniti. Exercitationem.
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="text-danger h1">
+                <i class="bi-cash-stack"></i>
+              </div>
+              <div class="text-white fw-bold h4 mb-3">
+                31 Sponsors
+              </div>
+              <div class="small text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente corporis voluptatem harum. Mollitia
+                recusandae, nemo quia a id quos? Ipsa nihil earum eum expedita dolorem distinctio impedit, dolores
+                consequuntur minima eligendi repellat quia deleniti. Exercitationem.
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -169,43 +186,85 @@
         voluptas at reprehenderit, nobis debitis, dignissimos odit neque assumenda!
       </div>
     </div>
-    <div class="accordion" id="accordionPanelsStayOpen">
-      <div class="accordion-item ">
+    <div class="accordion" id="accordion-custom">
+      <div class="accordion-item">
         <div class="row row-cols-6">
-          <div class="col">
+          <div class="col p-0">
             <h2 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-1"
-                aria-expanded="true" aria-controls="panel-1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1"
+                aria-expanded="true" aria-controls="collapse-1">
                 Accordion Item #1
               </button>
             </h2>
           </div>
-          <div class="col">
+          <div class="col p-0">
             <h2 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-2"
-                aria-expanded="true" aria-controls="panel-2">
-                Accordion Item #2
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">
+                Accordion Item #1
               </button>
             </h2>
           </div>
         </div>
-        <div id="panel-1" class="accordion-collapse collapse show">
+        <div id="collapse-1" class="accordion-collapse collapse show" data-bs-parent="#accordion-custom">
           <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-            plugin adds the appropriate classes that we use to style each element. These classes control the overall
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin
+            adds the appropriate classes that we use to style each element. These classes control the overall
             appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
             CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
             <code>.accordion-body</code>, though the transition does limit overflow.
           </div>
         </div>
-        <div id="panel-2" class="accordion-collapse collapse show">
+        <div id="collapse-2" class="accordion-collapse collapse" data-bs-parent="#accordion-custom">
           <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-            plugin adds the appropriate classes that we use to style each element. These classes control the overall
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin
+            adds the appropriate classes that we use to style each element. These classes control the overall
             appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
             CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
             <code>.accordion-body</code>, though the transition does limit overflow.
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-image2 py-5 mt-5">
+    <div class="container-xxl">
+      <div class="row row-cols-1 row-cols-md-2 vh-50 align-items-center">
+        <div class="col text-white">
+          <div class="h4">
+            REGISTER HERE
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In laborum natus, facilis fugiat debitis neque
+            repellat, officiis, eius maiores dolorem porro placeat exercitationem impedit aperiam!
+          </div>
+          <div class="text-secondary d-none d-md-block">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque modi omnis repellendus necessitatibus vel
+            accusantium blanditiis a velit suscipit repudiandae tempora accusamus incidunt numquam explicabo
+            consequuntur ratione quasi possimus quibusdam enim provident, minus sit animi distinctio similique. Vero
+            repellat quidem non iure iusto? Beatae reprehenderit quisquam earum, consectetur minima delectus.
+          </div>
+        </div>
+        <div class="col text-white">
+          <form action="">
+            <div class="row row-cols-1 gy-2">
+              <div class="col">
+                <input type="text" class="w-100 bg-transparent border border-2 py-1 px-2" placeholder="First Name">
+              </div>
+              <div class="col">
+                <input type="text" class="w-100 bg-transparent border border-2 py-1 px-2" placeholder="Last Name">
+              </div>
+              <div class="col">
+                <input type="text" class="w-100 bg-transparent border border-2 py-1 px-2" placeholder="Phone Number">
+              </div>
+              <div class="col">
+                <input type="email" class="w-100 bg-transparent border border-2 py-1 px-2" placeholder="Email Address">
+              </div>
+            </div>
+            <div class="small my-3 text-end">
+              <button class="rounded-5 bg-danger text-white border-0 px-4 py-2">REGISTER</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>

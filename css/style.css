@@ -1,3 +1,14 @@
 .vh-50{
     height: 50vh;
 }
+
+.bg-image2 {
+    background-image: url("../img/register-bg.jpg");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-
