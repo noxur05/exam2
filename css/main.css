@@ -1,9 +1,14 @@
+.accordion-button{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
 .accordion-button:focus{
     box-shadow: none;
     border-top: 0;
     border-right: 0;
     border-left: 0;
-    border-bottom: 2px solid gray;
 }
 
 .accordion-button[aria-expanded="true"]{

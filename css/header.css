@@ -6,3 +6,10 @@
     background-position: center;
     background-size: cover;
 }
+.custom-align{
+    align-items: start;
+}
+
+.navbar-toggler .collapsed + .custom-align{
+    align-items: center;
+}
