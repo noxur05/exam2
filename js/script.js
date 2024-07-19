@@ -28,6 +28,14 @@ document.addEventListener('DOMContentLoaded', function () {
         type: 'loop',
         autoplay: true,
     }).mount();
+
+    Fancybox.bind('[data-fancybox="gallery"]', {
+        // Your custom options for a specific gallery
+    });
+    
+    Fancybox.bind('[data-fancybox="gallery1"]', {
+        // Your custom options for a specific gallery
+    });
       
   });
   
