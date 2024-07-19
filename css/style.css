@@ -10,3 +10,27 @@
     background-position: center;
     background-size: cover;
 }
+
+.custom-fixed-bottom{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.custom-color{
+    background: linear-gradient(to left, white, gray, black, gray);
+    display: inline;
+    color: transparent;
+    animation: animated 10s linear infinite;
+    background-clip: text;
+}
+
+@keyframes animated {
+    to {
+        background-position-x: 161px;
+    }
+}
+
+input::placeholder{
+    color: aliceblue;
+}
