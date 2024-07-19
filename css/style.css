@@ -1,0 +1,81 @@
+.rem3{
+    height: 60px;
+}
+
+.w-90{
+    width: 90%;
+}
+.bg-1{
+    background: #ECFDF5;
+}
+
+.bg-3{
+    background: #A7F3D0;
+}
+
+.bg-5{
+    background: #34d399;
+}
+
+.bg-8{
+    background: #047857;
+}
+
+.bg-10{
+    background: #064e3b;
+}
+.bg-transparent{
+    background: transparent;
+}
+
+.border-custom-1{
+    border: 1px solid #047857;
+}
+
+.color-1{
+    color: #ECFDF5;
+}
+
+.color-5{
+    color: #34d399;
+}
+
+.color-11{
+    color: #022c22;
+}
+
+.vh-custom{
+    height: 25vh;
+}
+
+@media (min-width: 576px) {
+    .vh-custom{
+        height: 30vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .vh-custom{
+        height: 35vh;
+    }
+}
+
+@media (min-width: 920px) {
+    .vh-custom{
+        height: 40vh;
+    }
+}
+
+@media (min-width:1200px) {
+    .vh-custom{
+        height: 45vh;
+    }
+}
+
+@media (min-width:1400px) {
+    .vh-custom{
+        height: 50vh;
+    }
+}
+
+  

@@ -1,0 +1,12 @@
+.box-shadow{
+    transform: 1s linear;
+}
+
+.custom-hover ul li:hover .box-shadow{
+    box-shadow: 0px 4px 8px rgba(4, 120, 87, 0.3);
+}
+
+.goods-size{
+    width: 90% !important;
+    height: 175px !important;
+}
