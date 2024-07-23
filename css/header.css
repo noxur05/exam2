@@ -13,3 +13,7 @@
 .navbar-toggler .collapsed + .custom-align{
     align-items: center;
 }
+
+.modal-dialog{
+    overflow-y: initial;
+}
